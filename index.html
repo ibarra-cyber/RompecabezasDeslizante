@@ -2,27 +2,26 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" conte="width-device-width, initial-scale=1.0">
-        <title> Rompecabezas Deslizante</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rompecabezas Deslizante</title>
         <link rel="stylesheet" href="estilos.css">
     </head>
     <body>
-        <div id="titulo"><h1> Rompecabezas </h1> </div>
-        <div id="subtitulo"> <h2>Orden los numeros de menor a mayor</h2></div>
-
+        <div id="titulo"><h1>🧩 Rompecabezas🧩 </h1> </div>
+        <div id="subtitulo"><h2>Ordena los numeros de mayor a menor</h2></div>
         <div class="grid">
-        <div class="cell" onclick="mover(0)"></div>
-        <div class="cell" onclick="mover(1)"></div>
-        <div class="cell" onclick="mover(2)"></div>
-        <div class="cell" onclick="mover(3)"></div>
-        <div class="cell" onclick="mover(4)"></div>
-        <div class="cell" onclick="mover(5)"></div>
-        <div class="cell" onclick="mover(6)"></div>
-        <div class="cell" onclick="mover(7)"></div>
-        <div class="cell empty" onclick="mover(8)"></div>
+            <div class="cell" onclick="mover(0)">1</div>
+            <div class="cell" onclick="mover(1)">2</div>
+            <div class="cell" onclick="mover(2)">3</div>
+            <div class="cell" onclick="mover(3)">4</div>
+            <div class="cell" onclick="mover(4)">5</div>
+            <div class="cell" onclick="mover(5)">6</div>
+            <div class="cell" onclick="mover(6)">7</div>
+            <div class="cell" onclick="mover(7)">8</div>
+            <div class="cell empty" onclick="mover(8)"></div>
         </div>
         <div id="footer"><p id="mensaje"></p>
-        <button onclick="reiniciar()">Reiniciar rompecabezas</button></div>
+        <button onclick="reiniciar()">Reiniciar Rompecabezas</button></div>
 
         <script src="instrucciones.js"></script>
     </body>
